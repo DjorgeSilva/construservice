@@ -55,7 +55,7 @@ export const Wrapper = styled.div`
 
             h1{
                 width: fit-content;
-                font-size: clamp(2rem, 2.5vw, 2rem);
+                font-size: clamp(1.5rem, 2.5vw, 2rem);
                 background:#F5C32E;
                 border-radius: 10px;
                 color: #000;

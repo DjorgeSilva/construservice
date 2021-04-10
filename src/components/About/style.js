@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     padding: 50px 20px;
 
     display: flex;
@@ -11,7 +11,8 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
 
-    @media (min-width: 950px){
+    @media (min-width: 992px){
+        height: 100vh;
         flex-direction: row;
     }
 
@@ -23,8 +24,9 @@ export const Txt = styled.div`
     
     
     h1{
-        font-size: clamp(2.5rem, 2.5vw, 4rem);
+        font-size: clamp(2.2rem, 2.5vw, 4rem);
         color: ${props=> props.theme.ternary_color};
+        
     }
 
     p{
