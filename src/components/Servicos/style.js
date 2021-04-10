@@ -5,6 +5,7 @@ export const Container = styled.div`
     height: fit-content;
     background: ${props => props.theme.ternary_color};
     padding: 20px 0;
+    position: relative;
 
     @media (min-width: 992px){
         height: 100vh;
@@ -42,7 +43,11 @@ export const Wrapper = styled.div`
             position: relative;
 
             &:hover > img{
-                opacity: .3;
+                opacity: .1;
+            }
+
+            &:hover >   h1{
+                background: #fff; 
             }
 
             img{
@@ -87,4 +92,62 @@ export const Wrapper = styled.div`
             color: ${props => props.theme.primary_color};
         }
     }
+`
+
+export const MoreInfo = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .9);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: ${({ openModal }) => (openModal ? 'flex' : 'none')};
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 1000;
+
+    .icone{
+        cursor: pointer;
+        color: #fff;
+        margin-bottom: 50px;
+        font-size: 3rem;
+
+        &:hover{
+            color: ${props => props.theme.ternary_color};
+        }
+
+    }
+
+    .more-info{
+        width: 80%;
+        height: 50%;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px 10px;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        @media (min-width: 650px){
+            width: 600px;
+            padding: 20px;
+        }
+        
+        h6{
+            font-size: clamp(1.5rem, 2.5vw, 2rem);
+            color: #333;
+            text-align: center;
+            margin: 20px;
+        }
+        p{
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+        }
+    }
+
 `

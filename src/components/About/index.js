@@ -16,7 +16,7 @@ export const About = () => {
                 </s.Txt>
 
                 <s.IMG>
-                    <img src={AboutIMG} alt="imagens da contru service"/>
+                    <img src={AboutIMG} alt="imagens da contru service" />
                 </s.IMG>
             </s.Container>
         </>
