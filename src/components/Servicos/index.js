@@ -41,7 +41,7 @@ export const Servicos = () => {
                     })}
                 </Row>
 
-                <Link to="/servico" style={style}>
+                <Link to="/servicos" style={style}>
                     <button type="button">Saiba mais</button>
                 </Link>
 
