@@ -14,7 +14,7 @@ export const Servicos = () => {
         textDecoration: "none"
     }
 
-    const hancleModal = (item) => {
+    const handleModal = (item) => {
         setInfoModal(item);
         setOpenModal(!openModal);
     }
@@ -29,7 +29,7 @@ export const Servicos = () => {
                 <Row>
                     {Data && Data.map((item) => {
                         return (
-                            <Col xs={12} md={6} lg={4} className="item-servico-col" onClick={() => hancleModal(item)}>
+                            <Col xs={12} md={6} lg={4} className="item-servico-col" onClick={() => handleModal(item)}>
 
                                 <div className="inner-txt">
                                     <img src={item.img} alt={item.alt} />
