@@ -9,7 +9,7 @@ export const Container = styled.nav`
     position: fixed;
     top:  0;
     padding: 0 20px;
-    z-index:1000;
+    z-index:10000;
 `
 
 
