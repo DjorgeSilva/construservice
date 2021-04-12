@@ -11,8 +11,14 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { Nav } from './components/Nav'
 import { Footer } from "./components/Footer";
 import { Home } from "./routes/Home/index";
+import { About } from "./routes/About/index";
+import { Servico } from "./routes/Servico/index";
+import { Portfolio } from "./routes/Portfolio/index";
+import { Contato } from "./routes/Contato/index";
 
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
 
   const theme = {
     primary_color: "#000",
@@ -22,8 +28,6 @@ function App() {
     font_padrao: "Roboto, sans-serif"
   };
 
-  const [isOpenAtendOnline, setisOpenAtendOnline] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
 
 
   const AuthenticatedRoutes = () => {
@@ -32,6 +36,10 @@ function App() {
         <Route path="/" exact>
           <Home />
         </Route>
+        <Route path="/quem-somos" exact component={About}/>
+        <Route path="/servicos" exact component={Servico}/>
+        <Route path="/portfolio" exact component={Portfolio}/>
+        <Route path="/contato" exact component={Contato}/>
       </Router >
     )
   }
