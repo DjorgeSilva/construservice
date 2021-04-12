@@ -4,6 +4,7 @@ import { Slider } from "../../components/Slider/"
 import {About} from "../../components/About"
 import { Servicos } from '../../components/Servicos/'
 import { Portfolio } from '../../components/Portfolio/'
+import { Contato } from '../../components/Contato'
 
 export const Home = () => {
 
@@ -13,6 +14,7 @@ export const Home = () => {
             <About/>
             <Servicos/>
             <Portfolio/>
+            <Contato/>
         </S.Container>
     )
 }
