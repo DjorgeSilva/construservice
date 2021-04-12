@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import banner from "../../assets/img/contato-bg.jpeg"
+import banner from "../../assets/img/contato-bg.jpg"
 
 export const WrapBanner = styled.div`
     height: 50vh;
@@ -21,7 +21,7 @@ export const WrapBanner = styled.div`
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        background: rgba(0, 0, 0, .5);
+        background: rgba(0, 0, 0, .7);
 
         display: flex;
         justify-content: center;
