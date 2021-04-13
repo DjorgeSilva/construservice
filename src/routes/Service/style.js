@@ -1,15 +1,18 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 import banner from "../../assets/img/about-banner.jpg"
 
 export const Container = styled.div`
     width: 100%;
-    height: fit-content;    
-    background: ${props=> props.theme.secundary_color};
-`
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+`;
 
 export const WrapBanner = styled.div`
     height: 50vh;
     position: relative;
+    margin-bottom: 80px;
 
     .parallax {
         background-image: url(${banner});
@@ -58,48 +61,36 @@ export const WrapBanner = styled.div`
     }
 `
 
-export const Main = styled.div`
+export const ItemGrid = styled.div`
     width: 100%;
-    height: 100%;
-    padding: 35px 0;
+    margin-top: 20px;
 
-    .coluna{
-        padding: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        p{
-            font-size: clamp(1rem, 2.5vw, 1.2rem);
-        }
-
-        img{
-            width: 100%;
-        }
+    @media (min-width: 950px){
+        height:450px;
     }
 
-    .coluna-politica{
-        display: block;
+    img{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
 
-        h1{
-            text-align: left;
-            margin: 20px auto;
-        }
-
-        .coluna-grid{
-            margin-top: 20px; 
-
-            background: ${props => props.theme.primary_color};
-            color: ${props => props.theme.ternary_color};
-            border: 2px solid #fff;
-
-            h6{
-                font-size: clamp(1rem, 2.5vw, 1.2rem);
-                color: ${props => props.theme.secundary_color};
-                margin: 20px auto;
-                text-transform: uppercase;
-            }
-        }
     }
+    h3{
+        width: 100%;
+        height: 10%;
+        height:fit-content;
+        background: ${props => props.theme.ternary_color};
+        text-align: center;
+        padding: 10px 0;
+        font-size: clamp(1rem, 2.5vw, 1rem);
+        text-transform: uppercase;
+        margin: 0;
+
+    }
+    p{
+        height: 40%;
+        background: #EBE9E9;
+        padding: 10px;
+    }
+
 `

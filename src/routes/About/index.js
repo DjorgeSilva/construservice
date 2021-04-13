@@ -1,7 +1,6 @@
 import React from 'react'
 import * as s from './style.js'
 import { Row, Col } from "react-bootstrap"
-import Map from "../../components/Map"
 import imgAbout from "../../assets/img/slider-4.jpg"
 
 export const About = () => {

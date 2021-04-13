@@ -12,7 +12,7 @@ import { Nav } from './components/Nav'
 import { Footer } from "./components/Footer";
 import { Home } from "./routes/Home/index";
 import { About } from "./routes/About/index";
-import { Servico } from "./routes/Servico/index";
+import { Servicos } from "./routes/Service/index";
 import { Portfolio } from "./routes/Portfolio/index";
 import { Contato } from "./routes/Contato/index";
 
@@ -37,7 +37,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/quem-somos" exact component={About}/>
-        <Route path="/servicos" exact component={Servico}/>
+        <Route path="/servicos" exact component={Servicos}/>
         <Route path="/portfolio" exact component={Portfolio}/>
         <Route path="/contato" exact component={Contato}/>
       </Router >

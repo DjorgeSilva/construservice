@@ -4,7 +4,6 @@ import banner from "../../assets/img/about-banner.jpg"
 export const Container = styled.div`
     width: 100%;
     height: fit-content;    
-    margin-top: 80px;
     background: ${props => props.theme.secundary_color};
 `
 
