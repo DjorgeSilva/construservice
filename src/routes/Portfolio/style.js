@@ -92,3 +92,56 @@ export const ItemGrid = styled.div`
     }
 
 `
+
+export const MoreInfo = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .9);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: ${({ openModal }) => (openModal ? 'flex' : 'none')};
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 1000;
+
+    .icone{
+        cursor: pointer;
+        color: #fff;
+        margin-bottom: 30px;
+        font-size: 3rem;
+
+        &:hover{
+            color: ${props => props.theme.ternary_color};
+        }
+
+    }
+
+    .more-info{
+        width: 90%;
+        height: 60%;
+        border-radius: 10px;
+        padding: 20px 10px;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        @media (min-width: 650px){
+            width: 45%;
+            padding: 20px;
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+`
