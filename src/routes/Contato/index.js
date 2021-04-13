@@ -13,7 +13,7 @@ export const Contato = () => {
                 <div className="innertxt">
 
                     <div className="container">
-                        <h5>Entre em <span>contato</span> conosco</h5>
+                        <h5>Entre em contato <span>conosco</span></h5>
                     </div>
 
                 </div>

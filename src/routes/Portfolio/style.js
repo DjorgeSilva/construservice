@@ -142,6 +142,15 @@ export const MoreInfo = styled.div`
             height: 100%;
             object-fit: cover;
         }
+
+        h6{
+            width: 100%;
+            padding: 10px 0;
+            position: relative;
+            background-color: ${props => props.theme.ternary_color};
+            color: ${props => props.theme.primary_color};
+            bottom: -20px;
+        }
     }
 
 `

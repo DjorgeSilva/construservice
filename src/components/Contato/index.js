@@ -10,7 +10,7 @@ export const Contato = () => {
             <div className="innertxt">
 
                 <div className="container">
-                    <h5>Nos mande uma mensagem falando sobre o seu projeto!</h5>
+                    <h5>Nos envie uma mensagem falando sobre o seu projeto!</h5>
                     <Link to="/contato">
                         <button>Saiba mais</button>
                     </Link>

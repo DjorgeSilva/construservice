@@ -54,6 +54,7 @@ export const Portfolio = () => {
 
                     <div className="more-info">
                         <img src={infoModal.img} alt={infoModal.desc}/>
+                        <h6>{infoModal.alt}</h6>
                     </div>
 
                 </s.MoreInfo>
