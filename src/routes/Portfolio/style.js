@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import banner from "../../assets/img/about-banner.jpg"
+import banner from "../../assets/img/funcionario30.jpg"
 
 export const Container = styled.div`
     width: 100%;
@@ -21,7 +21,7 @@ export const WrapBanner = styled.div`
         background-image: url(${banner});
         min-height: 50vh; 
         background-attachment: fixed;
-        background-position-y: -100px;
+        background-position-y: -300px;
         background-repeat: no-repeat;
         background-size: cover;
     }
