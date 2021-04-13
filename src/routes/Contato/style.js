@@ -5,7 +5,7 @@ export const Container = styled.div`
     width: 100%;
     height: fit-content;    
     margin-top: 80px;
-    background: ${props=> props.theme.secundary_color};
+    background: ${props => props.theme.secundary_color};
 `
 
 export const WrapBanner = styled.div`
@@ -64,8 +64,60 @@ export const Main = styled.div`
     height: 100%;
     padding: 35px 0;
 
-    .coluna{
+    form{
+        width: 90%;
+        margin: 30px auto;
+        border: 2px solid ${props => props.theme.ternary_color};
+        border-radius: 5px;
+        padding: 20px;
+
+        @media (min-width: 850px){
+            width: 750px;
+        }
+
+        h1{
+            text-align: center;
+            font-size: clamp(1.4rem, 2.5vw, 1.5rem);
+            text-transform: uppercase;
+        }
+
+        label{
+            width: 100%;
+            margin: 13px auto;
+        }
+
+        input,
+        select{
+            width: 100%;
+            height: 35px;
+            padding-left: 10px;
+            border-radius: 5px;
+            border: 1px solid #333;
+        }
+
+
+        textarea{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #333;
+        }
+    }
+
+    .row{
+        margin: 0 auto;
+
+        @media (min-width: 850px){
+            width: 815px;
+        }
+
+        
+        .coluna{
+        width: 100%;
         padding: 30px;
+        border: 2px solid ${props => props.theme.ternary_color};
+        margin-bottom: 20px;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -79,28 +131,32 @@ export const Main = styled.div`
             width: 100%;
         }
     }
-
-    .coluna-politica{
-        display: block;
-
-        h1{
-            text-align: left;
-            margin: 20px auto;
-        }
-
-        .coluna-grid{
-            margin-top: 20px; 
-
-            background: ${props => props.theme.primary_color};
-            color: ${props => props.theme.ternary_color};
-            border: 2px solid #fff;
-
-            h6{
-                font-size: clamp(1rem, 2.5vw, 1.2rem);
-                color: ${props => props.theme.secundary_color};
-                margin: 20px auto;
-                text-transform: uppercase;
-            }
-        }
     }
+
 `
+
+export const GridContato = styled.div`
+    width: 100%;
+    height: 250px;
+    border: 2px solid #F5C32E;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #b3b3b3;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+
+    i{
+        font-size: 4rem;
+    }
+    h1{
+        text-transform: initial;
+        font-size: clamp(1.2rem, 2.5vw, 1.2rem);
+    }
+    a{
+        margin: 0;
+        padding: 0;
+    }
+`;

@@ -8,8 +8,6 @@ export const FooterContainer = styled.div`
     color: ${props => props.theme.secundary_color};
     padding: 30px 10px;
     overflow: hidden;
-       
-
 `
 
 export const FooterLogo = styled.div`
