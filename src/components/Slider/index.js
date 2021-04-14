@@ -15,7 +15,7 @@ export const Slider = () => {
 
             <Carousel className="slider">
 
-            <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "110vh" }} className="itemSlider">
+            <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
