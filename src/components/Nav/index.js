@@ -1,12 +1,16 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import * as S from "./styles"
 import LOGO from "../../assets/img/logo-transparent.png"
 import { IoMenu } from "react-icons/io5"
 import { IoClose } from "react-icons/io5"
 import { Link } from "react-router-dom"
+import { IoMdArrowDropdown } from "react-icons/io"
+import { IoMdArrowDropup } from "react-icons/io"
 import border_nav from "../../assets/img/traçado.png";
 
 export const Nav = ({ isOpen, setIsOpen }) => {
+
+    const [isOpenMais, setIsOpenMais] = useState(false);
 
     // nav transparente quando no topo
     var show = null;
@@ -37,6 +41,11 @@ export const Nav = ({ isOpen, setIsOpen }) => {
     }, [])
     // nav transparente quando no topo
 
+    const handleClickLink = () =>{
+        setIsOpen(!isOpen)
+        setIsOpenMais(false)
+    }
+
     return (
         <>
             <S.Container id="menu">
@@ -48,7 +57,7 @@ export const Nav = ({ isOpen, setIsOpen }) => {
                         </S.Logo>
                     </Link>
 
-                    <S.Menu onClick={() => setIsOpen(!isOpen)}>
+                    <S.Menu onClick={handleClickLink}>
                         {isOpen ?
                             <IoClose className="icon-menu" /> :
                             <IoMenu className="icon-menu" />
@@ -59,19 +68,44 @@ export const Nav = ({ isOpen, setIsOpen }) => {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Home</Link>
+                                    <Link to="/" style={LinkStyle} className="link" onClick={handleClickLink}>Home</Link>
                                 </li>
                                 <li>
-                                    <Link to="/quem-somos" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Quem somos</Link>
+                                    <Link to="/quem-somos" style={LinkStyle} className="link" onClick={handleClickLink}>Quem somos</Link>
                                 </li>
                                 <li>
-                                    <Link to="/servicos" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Serviços</Link>
+                                    <Link to="/servicos" style={LinkStyle} className="link" onClick={handleClickLink}>Serviços</Link>
                                 </li>
                                 <li>
-                                    <Link to="/portfolio" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Portfólio</Link>
+                                    <Link to="/portfolio" style={LinkStyle} className="link" onClick={handleClickLink}>Portfólio</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contato" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Contato</Link>
+                                    <Link to="/contato" style={LinkStyle} className="link" onClick={handleClickLink}>Contato</Link>
+                                </li>
+
+                                <li className="li-mais" onClick={() => setIsOpenMais(!isOpenMais)}>
+                                    Mais
+                                    {isOpenMais ?
+                                        <>
+                                            <IoMdArrowDropup className="icone-mais" />
+                                            <div className="box-more-info">
+                                                <Link to="/trabalhe-conosco" style={LinkStyle} className='link-mais'>
+                                                    Trabalhe Conosco
+                                                </Link>
+
+                                                <Link to="/trabalhe-conosco" style={LinkStyle} className='link-mais'>
+                                                    Mais opções
+                                                </Link>
+
+                                                <Link to="/trabalhe-conosco" style={LinkStyle} className='link-mais'>
+                                                    Mais opções
+                                                </Link>
+                                            </div>
+                                        </>
+                                        :
+                                        <IoMdArrowDropdown className="icone-mais" />
+                                    }
+
                                 </li>
                             </ul>
                         </nav>
@@ -84,19 +118,19 @@ export const Nav = ({ isOpen, setIsOpen }) => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Home</Link>
+                            <Link to="/" style={LinkStyle} className="link" onClick={handleClickLink}>Home</Link>
                         </li>
                         <li>
-                            <Link to="/quem-somos" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Quem somos</Link>
+                            <Link to="/quem-somos" style={LinkStyle} className="link" onClick={handleClickLink}>Quem somos</Link>
                         </li>
                         <li>
-                            <Link to="/servicos" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Serviços</Link>
+                            <Link to="/servicos" style={LinkStyle} className="link" onClick={handleClickLink}>Serviços</Link>
                         </li>
                         <li>
-                            <Link to="/portfolio" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Portfólio</Link>
+                            <Link to="/portfolio" style={LinkStyle} className="link" onClick={handleClickLink}>Portfólio</Link>
                         </li>
                         <li>
-                            <Link to="/contato" style={LinkStyle} className="link" onClick={() => setIsOpen(!isOpen)}>Contato</Link>
+                            <Link to="/contato" style={LinkStyle} className="link" onClick={handleClickLink}>Contato</Link>
                         </li>
                     </ul>
                 </nav>

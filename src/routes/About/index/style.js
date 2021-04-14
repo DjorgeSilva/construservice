@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import banner from "../../assets/img/funcionario2.jpg"
+import banner from "../../../assets/img/funcionario2.jpg"
 
 export const Container = styled.div`
     width: 100%;

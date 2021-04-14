@@ -7,9 +7,9 @@ export const Container = styled.div`
     padding: 20px 0;
     position: relative;
 
-    @media (min-width: 992px){
+    /* @media (min-width: 992px){
         height: 100vh;
-    }
+    } */
 `
 
 export const Wrapper = styled.div`
