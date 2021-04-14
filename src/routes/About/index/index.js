@@ -19,7 +19,7 @@ export const About = () => {
                 <div className="innertxt">
 
                     <div className="container">
-                        <h5>Sobre a <span>Constru service</span></h5>
+                        <h5>Sobre a <span>Construservice</span></h5>
                     </div>
 
                 </div>
@@ -44,7 +44,7 @@ export const About = () => {
 
                     <Col xs={12} md={12} className="coluna coluna-politica">
                         <h1>Politica de Qualidade</h1>
-                        <p>A BauTechnik Construções Especiais se compromete a satisfazer aos seus clientes com respeito, sustentabilidade e responsabilidade no relacionamento com colaboradores, fornecedores, comunidade e meio ambiente, atendendo aos requisitos e garantindo a melhoria contínua do Sistema de Gestão da Qualidade.</p>
+                        <p>A Construservice se compromete a satisfazer aos seus clientes com respeito, sustentabilidade e responsabilidade no relacionamento com colaboradores, fornecedores, comunidade e meio ambiente, atendendo aos requisitos e garantindo a melhoria contínua do Sistema de Gestão da Qualidade.</p>
 
 
                         <Row>

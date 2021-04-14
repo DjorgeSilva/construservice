@@ -71,15 +71,6 @@ export const Contato = () => {
 
                     <Col sm={12} md={6}>
                         <s.GridContato>
-                            <i class="fas fa-phone"></i>
-                            <h1>Telefone</h1>
-                            <a href="tel:99981444763">(99) 98144-4763</a>
-                            <a href="tel:99995323265">(99) 99532-3265</a>
-                        </s.GridContato>
-                    </Col>
-
-                    <Col sm={12} md={6}>
-                        <s.GridContato>
                             <i class="fas fa-map-marker-alt"></i>
                             <h1>Endereço</h1>
                             <p>Travessa Teresina, 2404</p>

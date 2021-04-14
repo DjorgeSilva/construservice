@@ -14,7 +14,7 @@ export const Portfolio = () => {
         <s.Container>
             <s.Wrapper className="container">
                 <h1>Portfólio</h1>
-                <p>Confira algumas das obras executadas pela <span>Constru Service</span></p>
+                <p>Confira algumas das obras executadas pela <span>Construservice</span></p>
 
                 <Slider />
 

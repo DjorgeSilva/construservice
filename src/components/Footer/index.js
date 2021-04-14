@@ -18,7 +18,7 @@ export const Footer = () => {
                             <S.FooterGridItem>
                                 <h1>Endereço</h1>
                                 <p><i class="fas fa-map-marker-alt"></i>Travessa Teresina, 2404</p>
-                                <p><i class="fas fa-home"></i>Constru Service LTDA</p>
+                                <p><i class="fas fa-home"></i>CONSTRUSERVICE LTDA</p>
                                 <p><i class="fas fa-map-marked-alt"></i>Codó Novo - MA</p>
                                 <p><i class="fas fa-compass"></i>CEP: 65400-000</p>
                             </S.FooterGridItem>
@@ -29,7 +29,7 @@ export const Footer = () => {
                                 <h1>Contato</h1>
                                 <p><i class="fas fa-phone"></i>+55 99 98144-4269</p>
                                 <p><i class="fas fa-phone"></i>+55 99 99836-9214</p>
-                                <p><i class="far fa-envelope"></i>construservice@gmail.com</p>
+                                <p><i class="far fa-envelope"></i>www.construservice.com.br</p>
                             </S.FooterGridItem>
                         </Col>
 

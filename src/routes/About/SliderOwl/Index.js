@@ -37,7 +37,7 @@ export const Slider = () => {
     return (
         <>
             <Container>
-                <h1>Nosso time de funcionários</h1>
+                <h1>Nossos Colaboradores</h1>
                 <hr />
 
                 <OwlCarousel style={{ marginTop: "20px" }} className="owl-theme" loop {...options}>

@@ -24,7 +24,7 @@ export const Servicos = () => {
 
             <S.Wrapper className="container">
                 <h1>Nossa áreas de atuação</h1>
-                <p>A Constru Service possui experiência em projetos e consultoria das mais variadas soluções em engenharia, tendo realizado serviços em diversos Estados do Brasil.</p>
+                <p>A Construservice possui experiência em projetos e consultoria das mais variadas soluções em engenharia, tendo realizado serviços em diversos Estados do Brasil.</p>
 
                 <Row>
                     {Data && Data.map((item) => {

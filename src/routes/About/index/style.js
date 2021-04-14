@@ -47,9 +47,11 @@ export const WrapBanner = styled.div`
                 color: ${props => props.theme.secundary_color};
                 padding: 10px 20px;
                 border-radius: 50px;
+                text-transform: uppercase;
                 
                 span{
                     color: ${props => props.theme.ternary_color};
+                    text-transform: uppercase;
                 }
         }
         }

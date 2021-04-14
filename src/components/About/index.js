@@ -8,8 +8,8 @@ export const About = () => {
         <>
             <s.Container className="container">
                 <s.Txt>
-                    <h1>Sobre a Constru Service</h1>
-                    <p>A Constru Service presta serviços na área de construção civíl para incorporadoras e empresas. Contamos com profissionais especializados, que buscam constantemente o conhecimento, resultando em tecnologia e inovação para entregar obras diferenciadas, com o foco na qualidade, de acordo com o perfil de seus clientes.</p>
+                    <h1>Sobre a Construservice</h1>
+                    <p>A Construservice presta serviços na área de construção civíl para incorporadoras e empresas. Contamos com profissionais especializados, que buscam constantemente o conhecimento, resultando em tecnologia e inovação para entregar obras diferenciadas, com o foco na qualidade, de acordo com o perfil de seus clientes.</p>
                     <Link to="/quem-somos">
                         <button>Saiba mais</button>
                     </Link>

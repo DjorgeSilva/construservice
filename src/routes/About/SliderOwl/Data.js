@@ -56,17 +56,13 @@ export const DataTodos = [
         ref: "Aux. Administrativo",
     },
     {
-        img: adm6,
-        name: "Mohamede S. Bizhim",
-        ref: "Encarregado de Logística",
-    },
-    {
         img: adm7,
         name: "Adolfo Jorge",
-        ref: "Encarregado de Transporte e Logística",
+        ref: "Aux. Administrativo",
     },
-
-
-
-
+    {
+        img: adm6,
+        name: "Mohamede Selen Brain",
+        ref: "Encarregado de Logística",
+    },
 ]
