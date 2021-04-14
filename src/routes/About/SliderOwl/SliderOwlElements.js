@@ -71,9 +71,18 @@ export const Container = styled.div`
         }
 
         .txt-box{
+            height: 80px;
             background: #0000;
-            padding: 20px;
             text-transform: uppercase;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h6{
+                font-size: .9rem;
+            }
         }
     
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import * as s from './style.js'
 import { Row, Col } from "react-bootstrap"
-import imgAbout from "../../../assets/img/slider-4.jpg"
+import imgAbout from "../../../assets/img/adm20.jpg"
 import { Slider } from '../SliderOwl/Index.js'
 
 export const About = () => {
