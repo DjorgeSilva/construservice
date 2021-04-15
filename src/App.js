@@ -15,6 +15,7 @@ import { About } from "./routes/About/index/index.js";
 import { Servicos } from "./routes/Service/index";
 import { Portfolio } from "./routes/Portfolio/index";
 import { Contato } from "./routes/Contato/index";
+import { TrabalheConosco } from "./routes/TrabalheConosco/main";
 
 function App() {
 
@@ -40,7 +41,7 @@ function App() {
         <Route path="/servicos" exact component={Servicos}/>
         <Route path="/portfolio" exact component={Portfolio}/>
         <Route path="/contato" exact component={Contato}/>
-        {/* <Route path="/trabalhe-conosco" component={Trabalhe}/> */}
+        <Route path="/trabalhe-conosco" component={TrabalheConosco}/>
       </Router >
     )
   }

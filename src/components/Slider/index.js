@@ -42,7 +42,7 @@ export const Slider = () => {
                     </div>
                     <Carousel.Caption style={{ top: "50%", transform: "translateY(-50%)", bottom: "initial" }}>
                         <div className="info-txt-slider">
-                            <h3>Líder no segmento de Construção Civil</h3>
+                            <h3>Lider no segmento de Construção Civil</h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
