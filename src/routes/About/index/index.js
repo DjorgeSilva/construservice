@@ -50,24 +50,41 @@ export const About = () => {
                         <Row>
                             <Col xs={12} md={4} className="coluna coluna-grid">
                                 <h6>Missão</h6>
-                                <p style={p_style}>Oferecer produtos e serviços no mais alto grau de qualidade e inovação, com respeito e responsabilidade no relacionamento com colaboradores, clientes, fornecedores e a comunidade, criando condições de crescimento e de perpetuidade.</p>
+                                <p style={p_style}>Contribuir para o desenvolvimento e crescimento da pavimentação asfáltica brasileira, produzindo asfalto de qualidade e proporcionando a satisfação no relacionamento com nossos clientes e colaboradores.</p>
                             </Col>
 
                             <Col xs={12} md={4} className="coluna coluna-grid">
                                 <h6>Visão</h6>
-                                <p style={p_style}>Concretizar sonhos superando as expectativas. Acreditamos que os clientes analisam não somente o produto, mas também a forma que os serviços são oferecidos; Ser uma empresa que aposta em serviços direcionados; Ser uma empresa que aposta.</p>
+                                <p style={p_style}>Ser referência no mercado atual, superando os padrões e gerando inovação e resultado frente a nossos clientes, contribuindo para um mundo melhor e sustentável.</p>
                             </Col>
 
                             <Col xs={12} md={4} className="coluna coluna-grid">
+
                                 <h6>Valores</h6>
-                                <p style={p_style}>Ser transparente, ético, agir com respeito e cidadania; Acreditar no ser humano e na sua capacidade e desejo para evoluir; Desenvolver pessoas por meio da educação pelo e para o trabalho; Desenvolver pessoas por meio da educação pelo e para o trabalho.</p>
+
+                                <ul style={p_style}>
+
+                                    <li style={{ marginTop: "20px" }}>
+                                        Confiabilidade: somos éticos e transparentes. Buscamos desenvolver parcerias estratégicas com os clientes, fornecedores e colaboradores.
+                                    </li>
+
+                                    <li style={{ marginTop: "20px" }}>
+                                        Ética: agir de acordo com os valores que norteiam uma conduta íntegra, transparente e honesta.
+                                    </li>
+
+                                    <li style={{ marginTop: "20px" }}>
+                                        Qualidade e sustentabilidade: buscamos melhorar continuamente, através do trabalho em equipe, com práticas de gestão nas áreas de responsabilidade social e meio-ambiente, garantindo o sucesso do nosso negócio.
+                                    </li>
+
+                                </ul>
+
                             </Col>
                         </Row>
                     </Col>
                 </Row>
             </s.Main>
 
-            <Slider/>
+            <Slider />
 
 
 

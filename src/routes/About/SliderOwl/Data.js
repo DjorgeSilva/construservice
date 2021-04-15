@@ -9,7 +9,11 @@ import adm7 from "../../../assets/img/adm18.jpg"
 import adm8 from "../../../assets/img/adm19.jpg"
 import adm9 from "../../../assets/img/slider-4.jpg"
 import adm10 from "../../../assets/img/adm21.jpg"
-
+import adm11 from "../../../assets/img/adm22.jpg"
+import adm12 from "../../../assets/img/adm23.jpg"
+import adm13 from "../../../assets/img/adm24.jpg"
+import adm14 from "../../../assets/img/adm25.jpg"
+import adm15 from "../../../assets/img/adm26.jpg"
 
 
 
@@ -51,8 +55,8 @@ export const DataTodos = [
         ref: "Aux. Administrativo",
     },
     {
-        img: adm8,
-        name: "Leiliane Galvão",
+        img: adm12,
+        name: "Marcelo Augusto",
         ref: "Aux. Administrativo",
     },
     {
@@ -61,8 +65,33 @@ export const DataTodos = [
         ref: "Aux. Administrativo",
     },
     {
+        img: adm8,
+        name: "Leiliane Galvão",
+        ref: "Aux. Administrativo",
+    },
+    {
         img: adm6,
         name: "Mohamede Selen Brain",
         ref: "Encarregado de Logística",
+    },
+    {
+        img: adm11,
+        name: "James Filho",
+        ref: "Encarregado de Transporte",
+    },
+    {
+        img: adm13,
+        name: "Naldo Brandão",
+        ref: "Lider de Almoxarifado",
+    },
+    {
+        img: adm14,
+        name: "Theila Lima",
+        ref: "Encarregada do Almoxarifado",
+    },
+    {
+        img: adm15,
+        name: "Tatiane Galvão",
+        ref: "Recepcionista",
     },
 ]
