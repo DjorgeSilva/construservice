@@ -8,6 +8,8 @@ import slider3 from "../../assets/img/slider-3.jpeg"
 import slider4 from "../../assets/img/slider-4.jpg"
 import slider5 from "../../assets/img/slider-5.jpg"
 import slider6 from "../../assets/img/adm15.jpg"
+import slider8 from "../../assets/img/mathaus2.jpeg"
+
 
 export const Slider = () => {
     return (
@@ -16,6 +18,22 @@ export const Slider = () => {
             <Carousel className="slider">
 
             <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
+                    <div className="item">
+                        <img
+                            className="d-block w-100"
+                            src={slider8}
+                            alt="First slide"
+                            style={{ maxWidth: "100vw", minHeight: "100vh", objectFit: "cover" }}
+                        />
+                    </div>
+                    <Carousel.Caption style={{ top: "50%", transform: "translateY(-50%)", bottom: "initial" }}>
+                        <div className="info-txt-slider">
+                            <h3>Construservice - Construindo com Inovação</h3>
+                        </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"

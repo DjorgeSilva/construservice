@@ -14,10 +14,17 @@ import adm12 from "../../../assets/img/adm23.jpg"
 import adm13 from "../../../assets/img/adm24.jpg"
 import adm14 from "../../../assets/img/adm25.jpg"
 import adm15 from "../../../assets/img/adm26.jpg"
+import adm16 from "../../../assets/img/mathaus1.jpeg"
 
 
 
 export const DataTodos = [
+
+    {
+        img: adm16,
+        name: "Mathaus Santos Tenório",
+        ref: "Engenheiro de produção",
+    },
 
     {
         img: adm1,
