@@ -15,7 +15,7 @@ export const Slider = () => {
 
             <Carousel className="slider">
 
-            <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
+            <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
@@ -26,12 +26,12 @@ export const Slider = () => {
                     </div>
                     <Carousel.Caption style={{ top: "50%", transform: "translateY(-50%)", bottom: "initial" }}>
                         <div className="info-txt-slider">
-                            <h3>Constru Service - Construindo Inovação</h3>
+                            <h3>Construservice - Construindo com Inovação</h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
+                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
@@ -42,12 +42,12 @@ export const Slider = () => {
                     </div>
                     <Carousel.Caption style={{ top: "50%", transform: "translateY(-50%)", bottom: "initial" }}>
                         <div className="info-txt-slider">
-                            <h3>Constru Service - Construindo Inovação</h3>
+                            <h3>Líder no segmento de Construção Civil</h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
+                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
@@ -58,12 +58,12 @@ export const Slider = () => {
                     </div>
                     <Carousel.Caption style={{ top: "50%", transform: "translateY(-50%)", bottom: "initial" }}>
                         <div className="info-txt-slider">
-                            <h3>Constru Service - Construindo Inovação</h3>
+                            <h3>Contamos com uma equipe qualificada</h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
+                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
@@ -74,12 +74,12 @@ export const Slider = () => {
                     </div>
                     <Carousel.Caption style={{ top: "50%", transform: "translateY(-50%)", bottom: "initial" }}>
                         <div className="info-txt-slider">
-                            <h3>Constru Service - Construindo Inovação</h3>
+                            <h3>Organização nas metodologias administrativas internas</h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
+                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
@@ -90,13 +90,13 @@ export const Slider = () => {
                     </div>
                     <Carousel.Caption style={{ top: "50%", transform: "translateY(-50%)", bottom: "initial" }}>
                         <div className="info-txt-slider">
-                            <h3>Constru Service - Construindo Inovação</h3>
+                            <h3>Colaboradores enpenhados a ressiginificar a forma de construir</h3>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
 
 
-                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
+                <Carousel.Item interval={1700} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
@@ -115,7 +115,7 @@ export const Slider = () => {
 
 
 
-                <Carousel.Item interval={2000} style={{ maxWidth: "100vw", maxHeight: "100vh" }} className="itemSlider">
+                <Carousel.Item interval={2000} style={{ maxWidth: "100vw", maxHeight: "104vh" }} className="itemSlider">
                     <div className="item">
                         <img
                             className="d-block w-100"
