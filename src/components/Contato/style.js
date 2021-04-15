@@ -2,12 +2,12 @@ import styled from "styled-components"
 import banner from "../../assets/img/contato-bg.jpg"
 
 export const WrapBanner = styled.div`
-    height: 50vh;
+    height: 500px;
     position: relative;
 
     .parallax {
         background-image: url(${banner});
-        min-height: 50vh; 
+        min-height: 500px; 
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -15,7 +15,7 @@ export const WrapBanner = styled.div`
     }
     .innertxt{
         width: 100%;
-        height: 50vh;
+        height: 500px;
         position: absolute;
         top: 50%;
         left: 50%;
