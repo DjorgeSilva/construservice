@@ -38,7 +38,7 @@ export const DataTodos = [
     },
     {
         img: adm9,
-        name: "Jonas Alves",
+        name: "Jones Alves",
         ref: "Encarregado Setor de Manutenção",
     },
     {
