@@ -71,9 +71,10 @@ export const Container = styled.div`
         }
 
         .txt-box{
-            height: 80px;
+            height: 30px;
             background: #0000;
             text-transform: uppercase;
+            padding-top: 7px;
 
             display: flex;
             justify-content: center;

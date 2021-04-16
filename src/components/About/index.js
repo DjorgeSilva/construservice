@@ -5,6 +5,7 @@ import * as s from "./style.js"
 import { Link } from "react-router-dom";
 import {GoPerson} from "react-icons/go"
 import {GiMineTruck} from 'react-icons/gi'
+import {MdLocationOn} from 'react-icons/md'
 
 export const About = () => {
     return (
@@ -25,11 +26,11 @@ export const About = () => {
                         <GiMineTruck className="icone"/>
                         <h5>+150</h5>
                         <h6>Obras</h6>
-                        <p>Comprometimento em entregar obras inovadoras para todo o território brasileiro.</p>       
+                        <p>Comprometimento em entregar obras inovadorras para todo o território brasileiro.</p>       
                     </Col>
 
                     <Col xs={12} md={6} className="coluna-numeros">
-                        <GoPerson className="icone"/>
+                        <MdLocationOn className="icone"/>
                         <h5>+3 Estados</h5>
                         <h6>MA, TO, GO</h6>
                         <p>Sede no Maranhão, Tocantins e  e Goiás.</p>       

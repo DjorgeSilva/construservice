@@ -3,7 +3,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { Container } from "./SliderOwlElements.js"
-import { DataTodos } from './Data'
 
 const options = {
     margin: 10,
@@ -32,12 +31,12 @@ const options = {
     },
 };
 
-export const Slider = () => {
+export const Slider = ({DataTodos, title}) => {
 
     return (
         <>
             <Container>
-                <h1>Nossos Colaboradores</h1>
+                <h1>{title}</h1>
                 <hr />
 
                 <OwlCarousel style={{ marginTop: "20px" }} className="owl-theme" loop {...options}>
@@ -51,7 +50,6 @@ export const Slider = () => {
 
                                 <div className="txt-box">
                                     <h6>{item.name}</h6>
-                                    <h6>{item.ref}</h6>
                                 </div>
                             </div>
                         )

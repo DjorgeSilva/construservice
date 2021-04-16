@@ -3,6 +3,8 @@ import * as s from './style.js'
 import { Row, Col } from "react-bootstrap"
 import imgAbout from "../../../assets/img/adm20.jpg"
 import { Slider } from '../SliderOwl/Index.js'
+import {DataTodos} from "../SliderOwl/Data"
+import {DataSede} from "../SliderOwl/DataSede"
 
 export const About = () => {
 
@@ -84,9 +86,9 @@ export const About = () => {
                 </Row>
             </s.Main>
 
-            <Slider />
+            <Slider DataTodos={DataSede} title="Nossa Sede"/>
 
-
+            <Slider DataTodos={DataTodos} title="Nossos Colaboradores"/>
 
         </s.Container>
     )
